@@ -13,11 +13,11 @@ type LinkItem = {
 };
 
 const ASSETS = {
-  avatar: "/avatar.gif",
-  introVideo: "/intro.mp4",
-  vrchat: "/vrchat.png",
-  youtube: "/youtube.png",
-  discord: "/discord.png",
+  avatar: new URL("./avatar.gif", import.meta.url).href,
+  introVideo: new URL("./intro.mp4", import.meta.url).href,
+  vrchat: new URL("./vrchat.png", import.meta.url).href,
+  youtube: new URL("./youtube.png", import.meta.url).href,
+  discord: new URL("./discord.png", import.meta.url).href,
   booth: ""
 };
 
